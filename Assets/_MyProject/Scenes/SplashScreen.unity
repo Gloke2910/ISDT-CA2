@@ -481,7 +481,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 581777632}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1008cb8d13ce0c74895fce5c5d30090d, type: 3}
+  m_Script: {fileID: 11500000, guid: ee41d8606e861344e8b90a9c8343d950, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &581777635
@@ -527,7 +527,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 581777636}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 581777634}
+        m_TargetAssemblyTypeName: GoSettings, Assembly-CSharp
+        m_MethodName: settingsScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &581777636
 MonoBehaviour:
   m_ObjectHideFlags: 0
