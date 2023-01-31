@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 03fa2b9871fd84540a5f7f3697104c30, type: 2}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -654,9 +654,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 8624214645706353955}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08c9c0935cb4aa843b9d043553c7139d, type: 3}
+  m_Script: {fileID: 11500000, guid: 1dd992cbfcac14045b88e179f0385317, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _fadeScreenRectTransform: {fileID: 1899236806}
+  StartGame: {fileID: 540884207}
+  _mainMenuPanel: {fileID: 383182260}
+  _fadeInTime: 1
+  _fadeOutTime: 1
 --- !u!1 &1565676446
 GameObject:
   m_ObjectHideFlags: 0
