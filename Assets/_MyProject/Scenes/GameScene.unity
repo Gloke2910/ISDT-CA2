@@ -630,7 +630,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!182 &311292735
 WindZone:
   m_ObjectHideFlags: 0
@@ -1236,12 +1236,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1ba67c24b6dda94e8f14743242be065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mockSimulator: {fileID: 735377532}
---- !u!1 &735377532 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8624214645324340166, guid: 5b85faa4cbf3e8041a81978c1a2ee3c4, type: 3}
-  m_PrefabInstance: {fileID: 1013541242}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &822969468
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2884,7 +2878,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9a65e7ae7235004fa750a5077fa55ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
 --- !u!54 &1660066522
 Rigidbody:
   m_ObjectHideFlags: 0
