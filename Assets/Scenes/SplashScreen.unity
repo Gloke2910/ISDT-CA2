@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 03fa2b9871fd84540a5f7f3697104c30, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.20749143, g: 0.21147497, b: 0.14576834, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -135,6 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1ba67c24b6dda94e8f14743242be065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mockSimulator: {fileID: 8624214645706353955}
 --- !u!1 &383182252
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,9 +482,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 581777632}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee41d8606e861344e8b90a9c8343d950, type: 3}
+  m_Script: {fileID: 11500000, guid: 1008cb8d13ce0c74895fce5c5d30090d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _Quit: {fileID: 581777635}
 --- !u!114 &581777635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -527,19 +529,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 581777636}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 581777634}
-        m_TargetAssemblyTypeName: GoSettings, Assembly-CSharp
-        m_MethodName: settingsScene
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &581777636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -666,7 +656,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8624214645706353955}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1dd992cbfcac14045b88e179f0385317, type: 3}
+  m_Script: {fileID: 11500000, guid: 08c9c0935cb4aa843b9d043553c7139d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _fadeScreenRectTransform: {fileID: 1899236806}
@@ -1084,6 +1074,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08c9c0935cb4aa843b9d043553c7139d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _fadeScreenRectTransform: {fileID: 1899236806}
+  StartGame: {fileID: 0}
+  _mainMenuPanel: {fileID: 0}
+  _fadeInTime: 1
+  _fadeOutTime: 1
 --- !u!1 &1919272585
 GameObject:
   m_ObjectHideFlags: 0
@@ -1133,7 +1128,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1919272585}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4472a91b97bb1fa42877b3e565ada459, type: 3}
+  m_Script: {fileID: 11500000, guid: 1008cb8d13ce0c74895fce5c5d30090d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _Quit: {fileID: 1919272588}
@@ -2204,10 +2199,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8624214645454933988}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 099daae4329028e4ca58662a63bf60fa, type: 3}
+  m_Script: {fileID: 11500000, guid: 799c7902246a3934b95ea80fba576552, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mockSimulator: {fileID: 8624214645706353955}
 --- !u!1 &8624214645454933988
 GameObject:
   m_ObjectHideFlags: 0
