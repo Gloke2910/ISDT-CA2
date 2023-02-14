@@ -4,7 +4,7 @@ using UnityEngine;
 
 //---------------------------------------------------------------------------------
 // Author		: Gabriel Loke
-// Date  		: 17/12/22
+// Date  		: 10/02/23
 // Description	: change settings such as audio etc
 //---------------------------------------------------------------------------------
 public class SettingsMenu : MonoBehaviour

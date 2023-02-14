@@ -4,7 +4,7 @@ using UnityEngine;
 
 //---------------------------------------------------------------------------------
 // Author		: Gabriel Loke
-// Date  		: 17/12/22
+// Date  		: 10/02/23
 // Description	: Script to ensure that the background audio is constant through the scenes
 //---------------------------------------------------------------------------------
 public class BackgroundSound : MonoBehaviour
