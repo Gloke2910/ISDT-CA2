@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//---------------------------------------------------------------------------------
+// Author		: Gabriel Loke
+// Date  		: 17/12/22
+// Description	: Script to ensure that the background audio is constant through the scenes
+//---------------------------------------------------------------------------------
 public class BackgroundSound : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
     // play Global
     private static BackgroundSound instance = null;
     public static BackgroundSound Instance
@@ -29,11 +29,4 @@ public class BackgroundSound : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
     }
     // play global end 
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
