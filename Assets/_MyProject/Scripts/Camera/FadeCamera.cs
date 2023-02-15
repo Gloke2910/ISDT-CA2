@@ -97,7 +97,7 @@ public class FadeCamera : MonoBehaviour
 
 	private void Completete()
     {
-		SceneManager.LoadScene("GameScene 2", LoadSceneMode.Additive);
+		SceneManager.LoadScene("GameScene");
     }
 
 	private void FadeMenu()

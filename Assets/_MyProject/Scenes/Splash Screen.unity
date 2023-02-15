@@ -202,18 +202,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 208702315}
   m_CullTransparentMesh: 1
---- !u!114 &339749948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8624214645454933988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1ba67c24b6dda94e8f14743242be065, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &383182252
 GameObject:
   m_ObjectHideFlags: 0
@@ -2400,7 +2388,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8624214645454933986}
   - component: {fileID: 8624214645454933987}
-  - component: {fileID: 339749948}
   m_Layer: 0
   m_Name: HMD Info Manager
   m_TagString: Untagged
