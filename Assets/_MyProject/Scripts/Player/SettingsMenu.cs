@@ -12,8 +12,15 @@ public class SettingsMenu : MonoBehaviour
 {
     public AudioMixer audioMixer;
 
+    // volume settings //
     public void setVolume (float volume)
     {
         audioMixer.SetFloat("volume", volume);
+    }
+
+    // graphics quality settings //
+    public void setQuality (int qualityIndex)
+    {
+        QualitySettings.SetQualityLevel(qualityIndex);
     }
 }
