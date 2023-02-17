@@ -4,32 +4,4 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/_MyProject/Scenes/Settings.unity
-    guid: a9c43d3394e78e24ab9d634ec8b071db
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/_MyProject/Scenes/GameScene.unity
-    guid: 47253019d96692a42b84a5039f160b29
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/_MyProject/Scenes/Splash Screen.unity
-    guid: 3504499ee91fccb47acbf5a7a8aa28af
-  - enabled: 1
-    path: Assets/_MyProject/Scenes/GameScene 2.unity
-    guid: dc037830845331d4da19838df733f6dc
-  m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 5503e20d7dc02b54c9f3aaadc6c957e4, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7db28748c39a12f48b0622c37b13f224, type: 2}
-    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: e6d7bbc769180564cbf3e803b9644472, type: 2}
+  m_Scenes: []

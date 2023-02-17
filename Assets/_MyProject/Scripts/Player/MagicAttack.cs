@@ -13,8 +13,9 @@ public class MagicAttack : MonoBehaviour
     [SerializeField] private float fireBallSpeed = 200f;
     [SerializeField] private float fireBallLife = 2f;
 
-    public void FireBallLaunch()
+    public void Update()
     {
+        if (Input.GetMouseButtonDown(0)) {
         // Instantiate a pf_FireBall at fireBallPt position and no rotation
         // Call it with a grab interactable activate event 
         GameObject tmpFireBall;
@@ -22,5 +23,6 @@ public class MagicAttack : MonoBehaviour
         tmpFireBall.GetComponent<Rigidbody>().AddForce(fireBallPt.transform.forward * fireBallSpeed);
 
         Destroy(tmpFireBall.transform.gameObject, fireBallLife); // Destroys the fireball
+        }
     }
 }
