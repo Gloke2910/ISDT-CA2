@@ -17,15 +17,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_MyProject/Scenes/GameScene.unity
     guid: 47253019d96692a42b84a5039f160b29
-  - enabled: 1
-    path: Assets/_MyProject/Scenes/GameScene 2.unity
-    guid: 3408a05707457b7408fcec56f5cf3eb7
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/_MyProject/Scenes/Splash Screen.unity
     guid: 3504499ee91fccb47acbf5a7a8aa28af
+  - enabled: 1
+    path: Assets/_MyProject/Scenes/GameScene 2.unity
+    guid: dc037830845331d4da19838df733f6dc
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 5503e20d7dc02b54c9f3aaadc6c957e4, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7db28748c39a12f48b0622c37b13f224, type: 2}
