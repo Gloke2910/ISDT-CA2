@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 4d2c8ab52401f0d47b87a94569f3066a, type: 2}
 --- !u!1001 &31748810
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -568,6 +568,42 @@ CapsuleCollider:
   m_Height: 4.976047
   m_Direction: 1
   m_Center: {x: 0.089731, y: 1.5865071, z: -0.06494522}
+--- !u!114 &239439253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239439248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 338fc855850ba394abe7dde0b734646b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 239439254}
+  player: {fileID: 1517772937}
+--- !u!195 &239439254
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239439248}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1001 &267217701
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3476,6 +3512,42 @@ CapsuleCollider:
   m_Height: 4.4464383
   m_Direction: 1
   m_Center: {x: 0.31428134, y: 1.1927063, z: 0.93317723}
+--- !u!114 &1291655846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291655841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 338fc855850ba394abe7dde0b734646b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 1291655847}
+  player: {fileID: 1517772937}
+--- !u!195 &1291655847
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291655841}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1001 &1298969285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3780,6 +3852,42 @@ CapsuleCollider:
   m_Height: 5.0476227
   m_Direction: 1
   m_Center: {x: 0, y: 1.466367, z: -0.10961151}
+--- !u!195 &1357312115
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357312110}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &1357312116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357312110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 338fc855850ba394abe7dde0b734646b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 1357312115}
+  player: {fileID: 1517772937}
 --- !u!1001 &1391007239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4224,6 +4332,12 @@ Transform:
 --- !u!1 &1517772936 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8624214645324340166, guid: 5b85faa4cbf3e8041a81978c1a2ee3c4,
+    type: 3}
+  m_PrefabInstance: {fileID: 913896524}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1517772937 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8624214645324340167, guid: 5b85faa4cbf3e8041a81978c1a2ee3c4,
     type: 3}
   m_PrefabInstance: {fileID: 913896524}
   m_PrefabAsset: {fileID: 0}
