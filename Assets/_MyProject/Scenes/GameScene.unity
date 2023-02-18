@@ -562,7 +562,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 239439248}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 2.4880235
   m_Height: 4.976047
@@ -3506,7 +3506,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291655841}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 2.2232192
   m_Height: 4.4464383
@@ -3846,7 +3846,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357312110}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 2.5238113
   m_Height: 5.0476227
@@ -5266,6 +5266,7 @@ GameObject:
   - component: {fileID: 1967589431}
   - component: {fileID: 1967589430}
   - component: {fileID: 1967589432}
+  - component: {fileID: 1967589433}
   m_Layer: 0
   m_Name: CuttingEdge
   m_TagString: Untagged
@@ -5281,7 +5282,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1967589429}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.2653808, y: 0.17521098, z: 3.330898}
@@ -5313,6 +5314,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DealDamageAmount: 10
+--- !u!54 &1967589433
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967589429}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1974926676
 PrefabInstance:
   m_ObjectHideFlags: 0

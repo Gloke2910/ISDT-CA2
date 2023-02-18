@@ -11,8 +11,9 @@ public class SwordAttack : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Enemy"))
+        if (other.gameObject.tag == "Enemy")
         {
+            Debug.Log("Test");
             EnemyHealth enemyHealth = other.GetComponent<EnemyHealth>();
             enemyHealth.TakeDamage(DealDamageAmount);
             //Destroy(other.gameObject);
