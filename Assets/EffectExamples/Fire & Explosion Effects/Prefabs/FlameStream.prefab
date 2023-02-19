@@ -4739,6 +4739,8 @@ GameObject:
   - component: {fileID: 198421077076039884}
   - component: {fileID: 199355249067051742}
   - component: {fileID: 7605836099389134051}
+  - component: {fileID: -8061245004884214851}
+  - component: {fileID: -6369824727033013439}
   m_Layer: 0
   m_Name: FlameStream
   m_TagString: Untagged
@@ -9562,3 +9564,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-8061245004884214851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973075987484898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead972899983aa544b817f82ba7fb0f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DealDamageAmount: 10
+--- !u!135 &-6369824727033013439
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973075987484898}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
