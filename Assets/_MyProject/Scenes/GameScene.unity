@@ -4630,6 +4630,21 @@ MonoBehaviour:
   dragon3: {fileID: 1291655841}
   dragon4: {fileID: 1660066519}
   dragon5: {fileID: 436690873}
+--- !u!114 &1517772939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517772936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f4fc7a1be445846b712dfee95f071c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  x: 0
+  y: 0
+  z: 0
 --- !u!1001 &1660066518
 PrefabInstance:
   m_ObjectHideFlags: 0
