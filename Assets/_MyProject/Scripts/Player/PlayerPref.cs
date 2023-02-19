@@ -8,13 +8,29 @@ using UnityEngine;
 // Description	: saves player location
 //---------------------------------------------------------------------------------
 
-/*
-[CreateAssetMenu(fileName: "Player Data", order = 1)]
-public class PlayerPref : ScriptableObject
-{
-    [Header("Location")];
 
-    [SerializeField];
-    int location; 
+public class PlayerPref : MonoBehaviour
+{
+    public float x,y,z;
+
+    public void Save()
+    {   
+        x = transform.position.x;
+        y = transform.position.y;
+        z = transform.position.z;
+
+        PlayerPrefs.SetFloat("x", x);
+        PlayerPrefs.SetFloat("y", y);
+        PlayerPrefs.SetFloat("z", z);
+    }
+
+    public void Load()
+    {
+        PlayerPrefs.GetFloat("x", x);
+        PlayerPrefs.GetFloat("y", y);
+        PlayerPrefs.GetFloat("z", z);
+
+        Vector3 LoadPosition = new Vector3(x,y,z);
+        transform.position = LoadPosition;
+    }
 }
-*/
