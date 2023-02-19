@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GoMenu : MonoBehaviour
+public class GoMenuSword : MonoBehaviour
 {
     public GameObject Menu; 
     
@@ -11,7 +11,7 @@ public class GoMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.A)) {
             Debug.Log("Hello");
-            SceneManager.LoadScene("MenuSceneSpells");
+            SceneManager.LoadScene("MenuSceneSwords");
         }
     }
 }

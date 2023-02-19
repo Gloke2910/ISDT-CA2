@@ -1266,7 +1266,6 @@ GameObject:
   - component: {fileID: 485687346}
   - component: {fileID: 485687345}
   - component: {fileID: 485687344}
-  - component: {fileID: 485687343}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -1294,19 +1293,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -0.7100006}
   m_SizeDelta: {x: 889.3334, y: 443.33334}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &485687343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 485687341}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f76c8aaf6b720df45a0ff9e2bd1c3618, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Menu: {fileID: 485687341}
 --- !u!114 &485687344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3887,6 +3873,7 @@ GameObject:
   - component: {fileID: 1314329457}
   - component: {fileID: 1314329456}
   - component: {fileID: 1314329455}
+  - component: {fileID: 1314329458}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -3957,7 +3944,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1314329456}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1314329458}
+        m_TargetAssemblyTypeName: GoMenuSword, Assembly-CSharp
+        m_MethodName: Update
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1314329456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3996,6 +3995,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314329453}
   m_CullTransparentMesh: 1
+--- !u!114 &1314329458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314329453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f40c3cd813be20b4abdff6548c3be6c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Menu: {fileID: 485687341}
 --- !u!1001 &1357312109
 PrefabInstance:
   m_ObjectHideFlags: 0
