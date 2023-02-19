@@ -1,18 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
+//---------------------------------------------------------------------------------
+// Author		: Gabriel Loke
+// Date  		: 17/02/23
+// Description	: On click button change scene to GameScene2 scene
+//---------------------------------------------------------------------------------
 public class GoSpells : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   public void SpellsScene() {
+    SceneManager.LoadScene("GameScene 2");
+   }
 }
