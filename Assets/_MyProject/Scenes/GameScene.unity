@@ -538,6 +538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  Destroy: 0
 --- !u!54 &239439251
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3467,6 +3468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  Destroy: 0
 --- !u!54 &1291655843
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3650,6 +3652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  Destroy: 0
 --- !u!65 &1310046414
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3822,6 +3825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  Destroy: 0
 --- !u!54 &1357312113
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4341,6 +4345,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 913896524}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1517772938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517772936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ca4da51d2d58a144946c3ea2a31d709, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Timer: 0
+  enemy: {fileID: 1291655842}
+  dragon1: {fileID: 239439248}
+  dragon2: {fileID: 1357312110}
+  dragon3: {fileID: 1291655841}
+  dragon4: {fileID: 1660066519}
+  dragon5: {fileID: 436690873}
 --- !u!1001 &1660066518
 PrefabInstance:
   m_ObjectHideFlags: 0

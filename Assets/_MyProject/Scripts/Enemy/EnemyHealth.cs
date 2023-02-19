@@ -25,8 +25,8 @@ public class EnemyHealth : MonoBehaviour
         currentHealth -= amount;
     }
 
-    void OnEnable ()
+    /*void OnEnable ()
     {
         currentHealth = maxHealth;
-    }
+    }*/
 }
