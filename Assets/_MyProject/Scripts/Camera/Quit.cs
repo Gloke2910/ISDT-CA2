@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 
 //---------------------------------------------------------------------------------
-// Author		: Gabriel Loke
+// Author		: Gabriel Loke and Zen Kiang
 // Date  		: 22/12/22
 // Description	: When the user clicks on the button, it quits 
 //---------------------------------------------------------------------------------
